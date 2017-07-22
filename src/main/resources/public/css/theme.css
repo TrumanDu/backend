@@ -1,0 +1,19 @@
+.loginSelf{
+  padding-bottom: 100px;
+     background-color: #eceef1;
+     -webkit-border-radius: 7px;
+     -moz-border-radius: 7px;
+     -ms-border-radius: 7px;
+     -o-border-radius: 7px;
+     width: 363px;
+     margin: 40px auto 10px auto;
+     padding: 30px;
+     padding-top: 10px;
+     overflow: hidden;
+     position: relative;
+}
+
+.separatorSelf {
+    margin-top: 10px;
+    padding-top: 10px;
+}

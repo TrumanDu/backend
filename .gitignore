@@ -1,0 +1,28 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Eclipse template
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+# sbteclipse plugin
+.target
+target
+# STS (Spring Tool Suite)
+.springBeans
+.idea
+logs
+
+/backend.iml
+/src/main/resources/public/vendors/
