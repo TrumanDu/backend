@@ -33,3 +33,11 @@ mvn spring-boot:run
 3. 推送接口
 4. 发短信接口
 5. token验证机制
+
+## Visualization
+
+### 1.Login view
+![Login](./doc/login.png)
+
+### 2.Home view
+![Login](./doc/home.png)
