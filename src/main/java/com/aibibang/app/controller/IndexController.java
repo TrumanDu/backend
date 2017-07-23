@@ -29,7 +29,7 @@ public class IndexController extends BaseController {
 	@RequestMapping("/icon")
 	public String icon(HttpServletRequest request){
 		
-		return "system/icon/icon";
+		return "/icon/icon";
 	}
 	
 	@RequestMapping("/home")
