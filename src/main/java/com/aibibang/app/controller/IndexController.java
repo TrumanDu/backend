@@ -34,7 +34,6 @@ public class IndexController extends BaseController {
 	
 	@RequestMapping("/home")
 	public String home(HttpServletRequest request){
-		
-		return "system/home/home";
+		return "workspace";
 	}
 }

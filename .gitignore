@@ -23,6 +23,4 @@ target
 .springBeans
 .idea
 logs
-
 /backend.iml
-/src/main/resources/public/vendors/
