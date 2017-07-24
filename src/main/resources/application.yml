@@ -3,6 +3,7 @@
 ################
 server.port: 8080
 spring:
+   messages.basename: messages,messages_en_US,messages_zh_CN
    devtools:
       restart.exclude: static/**,public/**,templates/**
       livereload.enabled: true

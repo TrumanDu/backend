@@ -1,0 +1,32 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<div class="table-scrollable">
+	<table class="table table-striped table-hover table-success">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>用户名</th>
+				<th>姓名</th>
+				<th>组织</th>
+				<th>电话</th>
+				<th>邮箱</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="user,vs:${page.result}" >
+				<td th:text="${vs.count + page.offset}"></td>
+				<td th:text="${user.username}"></td>
+				<td th:text="${user.name}"></td>
+				<td th:text="${user.orgName}"></td>
+				<td th:text="${user.phone}"></td>
+				<td th:text="${user.email}"></td>
+				<td>
+					<a href="javascript:" onclick="update('/user/user?id=${user.id}')">编辑</a>
+					<a href="javascript:" onclick="del('/user/delete?id=${user.id}')">删除</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="pageination-panel" th:utext="${page}"></div>
+</html>
